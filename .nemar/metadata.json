@@ -1,0 +1,156 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Ludovic Bellier": {
+      "orcid": "0000-0001-6457-5792",
+      "affiliations": [
+        {
+          "name": "University of California, Berkeley"
+        }
+      ]
+    },
+    "Anaïs Llorens": {
+      "orcid": "0000-0002-5842-6798",
+      "affiliations": [
+        {
+          "name": "University of California, Berkeley"
+        }
+      ]
+    },
+    "Déborah Marciano": {
+      "orcid": "0000-0001-9672-0691",
+      "affiliations": [
+        {
+          "name": "University of California, Berkeley"
+        }
+      ]
+    },
+    "Aysegul Gunduz": {
+      "orcid": "0000-0001-7925-0747",
+      "affiliations": [
+        {
+          "name": "University of Florida"
+        }
+      ]
+    },
+    "Gerwin Schalk": {
+      "orcid": "0000-0003-3443-9487",
+      "affiliations": [
+        {
+          "name": "Albany Medical College"
+        }
+      ]
+    },
+    "Peter Brunner": {
+      "orcid": "0000-0002-2588-2754",
+      "affiliations": [
+        {
+          "name": "Washington University School of Medicine, St. Louis"
+        }
+      ]
+    },
+    "Robert T. Knight": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.7876019",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1371/journal.pbio.3002176",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000356",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000356",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Fondation Pour l'Audition",
+      "award_number": "FPA RD-2015-2"
+    },
+    {
+      "funder_name": "NIH NIBIB",
+      "award_number": "R01-EB026439"
+    },
+    {
+      "funder_name": "NIH NIBIB",
+      "award_number": "P41-EB018783"
+    },
+    {
+      "funder_name": "NIH NINDS",
+      "award_number": "U24-NS109103"
+    },
+    {
+      "funder_name": "NIH NINDS",
+      "award_number": "U01-NS108916"
+    },
+    {
+      "funder_name": "NIH NINDS",
+      "award_number": "R13-NS118932"
+    },
+    {
+      "funder_name": "NIH NINDS",
+      "award_number": "R01-NS21135"
+    }
+  ],
+  "title": "Bellier et al. 2023 Pink Floyd music listening ECoG: authors' high-frequency activity (HFA, 70-150 Hz) for 29 patients",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "567 MB (88 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "BIDS-packaged derivative dataset of electrocorticography (ECoG) high-frequency activity (HFA, 70-150 Hz) from 29 patients with pharmacoresistant epilepsy who passively listened to Pink Floyd's 'Another Brick in the Wall, Part 1'. HFA is provided at 100 Hz, aligned to the 190.72 s song, together with electrode coordinates in MNI space (2668 electrodes in total). The raw ECoG recordings and the stimulus audio were not released. The data support auditory cortex studies and music stimulus reconstruction with nonlinear decoding models.",
+  "methods_description": "ECoG was recorded at 1200 Hz with g.USBamp and BCI2000 at Albany Medical Center using clinical grids and strips. The authors notch-filtered 60 Hz and its harmonics, high-pass filtered at 1 Hz, and band-passed 20-Hz sub-bands between 70 and 150 Hz. Each sub-band was median common-average referenced, Hilbert-transformed and robust-scaled, then the sub-bands were averaged and downsampled to 100 Hz. Samples above 7 SD were tagged as outliers.",
+  "keywords": [
+    {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
+      "term": "Music",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009146"
+    },
+    {
+      "term": "Auditory Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001303"
+    },
+    {
+      "term": "high-frequency activity"
+    },
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "stimulus reconstruction"
+    }
+  ],
+  "source_hash": "d3af883def92ea1a6d9416a9f5e1e7e73102b2ff810883418b8772952132426f"
+}
