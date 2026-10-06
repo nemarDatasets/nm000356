@@ -1,0 +1,77 @@
+name	type	units	low_cutoff	high_cutoff	group	status	status_description	author_reference_electrode	n_outlier_samples
+1	ECOG	n/a	70	150	n/a	good	n/a	true	2865
+2	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+3	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+4	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+5	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+6	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+7	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+8	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+9	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+10	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+11	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+12	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+13	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+14	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+15	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+16	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+17	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+18	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	2865
+19	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+20	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+21	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	2865
+22	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+23	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+24	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+25	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+26	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	2865
+27	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	2865
+28	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	2865
+29	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	2865
+30	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	2865
+31	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+32	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+33	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+34	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+35	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	2865
+36	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	2865
+37	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+38	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+39	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+40	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+41	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	2865
+42	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	2865
+43	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	2865
+44	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+45	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+46	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+47	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+48	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+49	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+50	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+51	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+52	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+53	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+54	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+55	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+56	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+57	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+58	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+59	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+60	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+61	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+62	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+63	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+64	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+65	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	2865
+66	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	2865
+67	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	2865
+68	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+69	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+70	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+71	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+72	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+73	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+74	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+75	ECOG	n/a	70	150	n/a	good	n/a	false	2865
+76	ECOG	n/a	70	150	n/a	good	n/a	false	2865

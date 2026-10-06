@@ -1,0 +1,313 @@
+{
+  "copied": [
+    {
+      "file": "P10_HFA_data.mat",
+      "bytes": 14212432,
+      "sha256": "f247932804bc33727e07f3458019164b886969b5fb6eebfcfb66918292d3bdcb"
+    },
+    {
+      "file": "P10_MNI_electrode_coordinates.mat",
+      "bytes": 16441,
+      "sha256": "37ebf3d60a3ea850c0503a0a64909df8e17388d5a9f63fbe230b8247c4fc1504"
+    },
+    {
+      "file": "P11_HFA_data.mat",
+      "bytes": 14067600,
+      "sha256": "d7008103af294433e5c7e5fa8205da3d1bb3d0842e2cc6b74a9d80939f58d6b8"
+    },
+    {
+      "file": "P11_MNI_electrode_coordinates.mat",
+      "bytes": 4547,
+      "sha256": "5ee0d9eed03f8aa0cdd397eb045647237e661a68cd1da5259905286e2517c8ea"
+    },
+    {
+      "file": "P12_HFA_data.mat",
+      "bytes": 16271036,
+      "sha256": "0a872cabe4a562980e69c404fcc672469feb17555267065b44f773e346f13374"
+    },
+    {
+      "file": "P12_MNI_electrode_coordinates.mat",
+      "bytes": 4615,
+      "sha256": "efeb17211841cce58c67522ba21bfeede688d3a0a9b4e89e202593bea8f25bda"
+    },
+    {
+      "file": "P13_HFA_data.mat",
+      "bytes": 13776078,
+      "sha256": "89c3456d5af9934acfaab68f279f5d19de8940584803d69fa0f8c982f0b0b2d8"
+    },
+    {
+      "file": "P13_MNI_electrode_coordinates.mat",
+      "bytes": 4358,
+      "sha256": "a71120f8c52d7bdd147765c5eaf82a41fff72eaf1fd6484eb8e89784a315c0a5"
+    },
+    {
+      "file": "P14_HFA_data.mat",
+      "bytes": 8498749,
+      "sha256": "990efbed95170326f8ed719b32243d10a21255b278bf6d793493a6da5894c1ef"
+    },
+    {
+      "file": "P14_MNI_electrode_coordinates.mat",
+      "bytes": 2363,
+      "sha256": "4bff76e84822ae176df99c79fa28bece780257fe0edcbbea6125c0dd1e50f087"
+    },
+    {
+      "file": "P15_HFA_data.mat",
+      "bytes": 17583584,
+      "sha256": "fb2607df0db1b701fa8969b559e4afd857447b860d32f2e304a3d9f1a66033a5"
+    },
+    {
+      "file": "P15_MNI_electrode_coordinates.mat",
+      "bytes": 4463,
+      "sha256": "16f0fe2bbce3f062bc65285015b3eabe205e754387795b60b7abd7f333a2f596"
+    },
+    {
+      "file": "P16_HFA_data.mat",
+      "bytes": 8791117,
+      "sha256": "950b79caa1aa33bb4f96517d606bdfba9f4e108ba7c144138748d29ab319c411"
+    },
+    {
+      "file": "P16_MNI_electrode_coordinates.mat",
+      "bytes": 2302,
+      "sha256": "834cf4a483b8145f1a2cdd5509c318754f6d4de77773795449856044ca9ea77e"
+    },
+    {
+      "file": "P17_HFA_data.mat",
+      "bytes": 8645870,
+      "sha256": "4fcbec60f6fe271380d539c5314b530521df316d0211d5698debbd4f4788e702"
+    },
+    {
+      "file": "P17_MNI_electrode_coordinates.mat",
+      "bytes": 2298,
+      "sha256": "fef14464fa8a568288bf7ea53e32d0c2ebaaef3e9ecafd6d3cfbecc90ddf15a2"
+    },
+    {
+      "file": "P18_HFA_data.mat",
+      "bytes": 18754041,
+      "sha256": "3abecab0680a3a811570dbd81a2b0dec992096f26526a5462fffc9d54a3eae97"
+    },
+    {
+      "file": "P18_MNI_electrode_coordinates.mat",
+      "bytes": 4465,
+      "sha256": "16e3da81cf2792cb1de1d2102c624bfc7d8dfb302986551a34454654b6c55eb3"
+    },
+    {
+      "file": "P19_HFA_data.mat",
+      "bytes": 14365516,
+      "sha256": "0b19311e0a76126da7d76ee0639c8390c89d2b2997712a57d4ee076c0e0110df"
+    },
+    {
+      "file": "P19_MNI_electrode_coordinates.mat",
+      "bytes": 4727,
+      "sha256": "5316f01a57fee686bd9db327dd948c61a840d400132c2604f4563fe59f115b7d"
+    },
+    {
+      "file": "P1_HFA_data.mat",
+      "bytes": 9378030,
+      "sha256": "b979d195c20ee2c25862c6931120969e4b9a1a480918cfff66d9176782252392"
+    },
+    {
+      "file": "P1_MNI_electrode_coordinates.mat",
+      "bytes": 2390,
+      "sha256": "f47f320a4db9ceaabfee95d55235d0bd06156ae06daa3221ec4f047c43881816"
+    },
+    {
+      "file": "P20_HFA_data.mat",
+      "bytes": 10403030,
+      "sha256": "a3d61a451102b5c755e20ddc0fce41c52c53f77c0ff3fc71d2347110c90151cf"
+    },
+    {
+      "file": "P20_MNI_electrode_coordinates.mat",
+      "bytes": 2799,
+      "sha256": "b7091c3ec3e9693d082c7a3fbd11a36dd2effb646ca7943ab7cbc241d2ba7b77"
+    },
+    {
+      "file": "P21_HFA_data.mat",
+      "bytes": 15975556,
+      "sha256": "0d21578c8e87f20681a983517c8cbdfb0406151f768acb751ef59e51497e719a"
+    },
+    {
+      "file": "P21_MNI_electrode_coordinates.mat",
+      "bytes": 9891,
+      "sha256": "13ed9867721e45d4e2156141381cd4384782bf381d422ebfadd67f5cb491c8e0"
+    },
+    {
+      "file": "P22_HFA_data.mat",
+      "bytes": 19632390,
+      "sha256": "56841ee5c79e744a04e18388ff52ad44eeca3f8f25251dcfbb81552d6c29744e"
+    },
+    {
+      "file": "P22_MNI_electrode_coordinates.mat",
+      "bytes": 4447,
+      "sha256": "d3d18f06333710b5eee1039218474cc87b45831f318824e8e8c2b452ed80feff"
+    },
+    {
+      "file": "P23_HFA_data.mat",
+      "bytes": 14358645,
+      "sha256": "de06d8823a44b73371b41e3ede6eef07b52fbe18e7a3a84bdb473a4903397dd3"
+    },
+    {
+      "file": "P23_MNI_electrode_coordinates.mat",
+      "bytes": 4713,
+      "sha256": "f327e2cf3e42e57f9ef211477e9feda8d3836600fb8209129f4f300e994601e0"
+    },
+    {
+      "file": "P24_HFA_data.mat",
+      "bytes": 8790823,
+      "sha256": "10e17c4f717029d0b5dd2b0255ee24ee40710f1603706578cd82ea663c1f91f6"
+    },
+    {
+      "file": "P24_MNI_electrode_coordinates.mat",
+      "bytes": 2334,
+      "sha256": "5c31e87c1fc12a9dd44c9268bcbc259f1fef4c70527d8d1290f3c3cae96cf677"
+    },
+    {
+      "file": "P25_HFA_data.mat",
+      "bytes": 11135318,
+      "sha256": "5e6e84a480c00e8c1d825bee5dd619c8edb7da6bff53c34b06674df1b2cb1c54"
+    },
+    {
+      "file": "P25_MNI_electrode_coordinates.mat",
+      "bytes": 2890,
+      "sha256": "c48dfdb9c55ce2390df4d72e902bca8fd437a7f25cb0ea7432be21b98f709edb"
+    },
+    {
+      "file": "P26_HFA_data.mat",
+      "bytes": 11868802,
+      "sha256": "fd91cb0bb539c0fdff45b15d8cb9d8a191f7d9f40fe2f6332b072bb9b466c279"
+    },
+    {
+      "file": "P26_MNI_electrode_coordinates.mat",
+      "bytes": 3376,
+      "sha256": "f37d57a77ee164765879fd5965b973ecda7de8e65c157def386a3ad24fc06882"
+    },
+    {
+      "file": "P27_HFA_data.mat",
+      "bytes": 5276874,
+      "sha256": "d05fbdd255d7934ad9773690a819e2f4bf177cc3423cf3680d169880c7a1341d"
+    },
+    {
+      "file": "P27_MNI_electrode_coordinates.mat",
+      "bytes": 1757,
+      "sha256": "150616a9dc23014d2ab3f5894ef31e4b8fa95e97c5b162128c5f640048178f5a"
+    },
+    {
+      "file": "P28_HFA_data.mat",
+      "bytes": 11572277,
+      "sha256": "a606850b14895ed751821259c62e7f4bd12fecb7558b8be6f3c99e368c72b33c"
+    },
+    {
+      "file": "P28_MNI_electrode_coordinates.mat",
+      "bytes": 10082,
+      "sha256": "e725201082b7f58499e14536cf4b0eb71da2d2258f46fc3f782431e95af8a3ef"
+    },
+    {
+      "file": "P29_HFA_data.mat",
+      "bytes": 36633506,
+      "sha256": "9a09243b842864d3374c490e7de1fa8b3abe4331051888de8026728f186171c2"
+    },
+    {
+      "file": "P29_MNI_electrode_coordinates.mat",
+      "bytes": 8844,
+      "sha256": "af74f9f46f814bb99e1d9167a8db495e99762a5f84c796786be49ff89443fd40"
+    },
+    {
+      "file": "P2_HFA_data.mat",
+      "bytes": 9377617,
+      "sha256": "753df53fa342accaeeed53ce3a2b710a4cbffc6c8bb30d93a839f115d4eebf2e"
+    },
+    {
+      "file": "P2_MNI_electrode_coordinates.mat",
+      "bytes": 1818,
+      "sha256": "fe297156ccf681d461694fd2368ebb6481d26aaccc32ce14e46ee3a89abf2f80"
+    },
+    {
+      "file": "P3_HFA_data.mat",
+      "bytes": 9381742,
+      "sha256": "a88ec94ee3a466c133e3f6db260490559944426aff505673df0659e9bc7fc593"
+    },
+    {
+      "file": "P3_MNI_electrode_coordinates.mat",
+      "bytes": 2413,
+      "sha256": "a38ff6fc0e5f549672314f1cd538550988732d2aa06dad02719fb8212cdb2543"
+    },
+    {
+      "file": "P4_HFA_data.mat",
+      "bytes": 14511320,
+      "sha256": "9fdbd0329123f8b7928f5028b1ee27d4199403f41ea26858e790cb8b8e108223"
+    },
+    {
+      "file": "P4_MNI_electrode_coordinates.mat",
+      "bytes": 8820,
+      "sha256": "df4d3360bcddff8e192c52b4894d9b1843bdde37621f9c9684337569b0e0f615"
+    },
+    {
+      "file": "P5_HFA_data.mat",
+      "bytes": 13627684,
+      "sha256": "a7b6e217e56b3ce04f9006406122daa79f51ad7a4814a4a88af783f64e3dc13a"
+    },
+    {
+      "file": "P5_MNI_electrode_coordinates.mat",
+      "bytes": 13984,
+      "sha256": "4ceb668dc0d4c3ac61657a5fdcc62388ad9719e694aee778d38f380c91482cd8"
+    },
+    {
+      "file": "P6_HFA_data.mat",
+      "bytes": 12160817,
+      "sha256": "9f99b01247df1400861d71ce9b12fbe2b2a2e48fbc784ff6cd061eac0502c2cf"
+    },
+    {
+      "file": "P6_MNI_electrode_coordinates.mat",
+      "bytes": 3540,
+      "sha256": "d67312905f2148ea304b00a55816ff33dbf901fc2cb81419029aee7cc2743e7d"
+    },
+    {
+      "file": "P7_HFA_data.mat",
+      "bytes": 14798621,
+      "sha256": "2a63669c4a2aee0e04e1ba1de3eafe67145f1a22928906389097a9dbb584db56"
+    },
+    {
+      "file": "P7_MNI_electrode_coordinates.mat",
+      "bytes": 29710,
+      "sha256": "2a7affd442dfb4e33ca28cbe9f17c80ce7757fdb69db7be1273a94044b243eca"
+    },
+    {
+      "file": "P8_HFA_data.mat",
+      "bytes": 11152426,
+      "sha256": "fa6b9fc7a66ff86eef748933bdbe4f427174e373cd1850e5c7916e8406c20598"
+    },
+    {
+      "file": "P8_MNI_electrode_coordinates.mat",
+      "bytes": 2997,
+      "sha256": "a9587777e1a67cc12344776185e674ec1c50093d7ff0739fc8e49cb34c50cbc3"
+    },
+    {
+      "file": "P9_HFA_data.mat",
+      "bytes": 15971596,
+      "sha256": "4e2a1e8e5cccc9ce8449bb194c97bbc9cde33d1f42b2d7ce7b927a48a094b937"
+    },
+    {
+      "file": "P9_MNI_electrode_coordinates.mat",
+      "bytes": 4637,
+      "sha256": "e3d244a942b9d5f34b35a5244041f8e0b8c0a4fb68b0f1aa7ceed8d62146e7de"
+    }
+  ],
+  "withheld_from_public_package": [
+    {
+      "file": "thewall1.wav",
+      "bytes": 16821548,
+      "reason": "Commercial music recording (Pink Floyd, Another Brick in the Wall, Part 1) or its spectrogram transform. The Zenodo record licence (CC-BY-4.0) does not establish rights to redistribute third-party music, so it is not republished here; it remains downloadable from Zenodo record 7876019, and the song is commercially available on The Wall (1979)."
+    },
+    {
+      "file": "thewall1_stim128.mat",
+      "bytes": 18510610,
+      "reason": "Commercial music recording (Pink Floyd, Another Brick in the Wall, Part 1) or its spectrogram transform. The Zenodo record licence (CC-BY-4.0) does not establish rights to redistribute third-party music, so it is not republished here; it remains downloadable from Zenodo record 7876019, and the song is commercially available on The Wall (1979)."
+    },
+    {
+      "file": "thewall1_stim32.mat",
+      "bytes": 4638703,
+      "reason": "Commercial music recording (Pink Floyd, Another Brick in the Wall, Part 1) or its spectrogram transform. The Zenodo record licence (CC-BY-4.0) does not establish rights to redistribute third-party music, so it is not republished here; it remains downloadable from Zenodo record 7876019, and the song is commercially available on The Wall (1979)."
+    }
+  ],
+  "source": "https://zenodo.org/records/7876019",
+  "doi": "10.5281/zenodo.7876019"
+}

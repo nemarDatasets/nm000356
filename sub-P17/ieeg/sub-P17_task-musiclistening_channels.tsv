@@ -1,0 +1,60 @@
+name	type	units	low_cutoff	high_cutoff	group	status	status_description	author_reference_electrode	n_outlier_samples
+1	ECOG	n/a	70	150	n/a	good	n/a	false	200
+2	ECOG	n/a	70	150	n/a	good	n/a	false	200
+3	ECOG	n/a	70	150	n/a	good	n/a	false	200
+4	ECOG	n/a	70	150	n/a	good	n/a	false	200
+5	ECOG	n/a	70	150	n/a	good	n/a	false	200
+6	ECOG	n/a	70	150	n/a	good	n/a	false	200
+7	ECOG	n/a	70	150	n/a	good	n/a	false	200
+8	ECOG	n/a	70	150	n/a	good	n/a	false	200
+9	ECOG	n/a	70	150	n/a	good	n/a	false	200
+10	ECOG	n/a	70	150	n/a	good	n/a	false	200
+11	ECOG	n/a	70	150	n/a	good	n/a	false	200
+12	ECOG	n/a	70	150	n/a	good	n/a	false	200
+13	ECOG	n/a	70	150	n/a	good	n/a	false	0
+14	ECOG	n/a	70	150	n/a	good	n/a	false	0
+15	ECOG	n/a	70	150	n/a	good	n/a	false	150
+16	ECOG	n/a	70	150	n/a	good	n/a	false	150
+17	ECOG	n/a	70	150	n/a	good	n/a	false	150
+18	ECOG	n/a	70	150	n/a	good	n/a	false	150
+19	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	150
+20	ECOG	n/a	70	150	n/a	good	n/a	false	150
+21	ECOG	n/a	70	150	n/a	good	n/a	false	150
+22	ECOG	n/a	70	150	n/a	good	n/a	false	150
+23	ECOG	n/a	70	150	n/a	good	n/a	false	150
+24	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	150
+25	ECOG	n/a	70	150	n/a	good	n/a	false	150
+26	ECOG	n/a	70	150	n/a	good	n/a	false	150
+27	ECOG	n/a	70	150	n/a	good	n/a	false	150
+28	ECOG	n/a	70	150	n/a	good	n/a	false	150
+29	ECOG	n/a	70	150	n/a	good	n/a	false	150
+30	ECOG	n/a	70	150	n/a	good	n/a	false	150
+31	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	150
+32	ECOG	n/a	70	150	n/a	good	n/a	false	150
+33	ECOG	n/a	70	150	n/a	good	n/a	false	150
+34	ECOG	n/a	70	150	n/a	good	n/a	false	150
+35	ECOG	n/a	70	150	n/a	good	n/a	false	150
+36	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	150
+37	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	150
+38	ECOG	n/a	70	150	n/a	good	n/a	false	150
+39	ECOG	n/a	70	150	n/a	good	n/a	false	150
+40	ECOG	n/a	70	150	n/a	good	n/a	false	150
+41	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	150
+42	ECOG	n/a	70	150	n/a	bad	epileptic electrode (dataInfo.idxEpilepticElecs)	false	150
+43	ECOG	n/a	70	150	n/a	good	n/a	false	150
+44	ECOG	n/a	70	150	n/a	good	n/a	false	150
+45	ECOG	n/a	70	150	n/a	good	n/a	false	350
+46	ECOG	n/a	70	150	n/a	good	n/a	false	350
+47	ECOG	n/a	70	150	n/a	good	n/a	false	350
+48	ECOG	n/a	70	150	n/a	good	n/a	false	350
+49	ECOG	n/a	70	150	n/a	good	n/a	false	600
+50	ECOG	n/a	70	150	n/a	good	n/a	false	600
+51	ECOG	n/a	70	150	n/a	good	n/a	false	600
+52	ECOG	n/a	70	150	n/a	good	n/a	false	600
+53	ECOG	n/a	70	150	n/a	good	n/a	false	600
+54	ECOG	n/a	70	150	n/a	good	n/a	false	450
+55	ECOG	n/a	70	150	n/a	bad	noisy electrode (dataInfo.idxNoisyElecs)	false	0
+56	ECOG	n/a	70	150	n/a	good	n/a	true	0
+57	ECOG	n/a	70	150	n/a	good	n/a	false	0
+58	ECOG	n/a	70	150	n/a	good	n/a	false	0
+59	ECOG	n/a	70	150	n/a	good	n/a	false	0

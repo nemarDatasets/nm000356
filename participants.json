@@ -1,0 +1,16 @@
+{
+  "source_id": {
+    "Description": "Patient identifier in the Zenodo release (P1-P29)."
+  },
+  "implantation_laterality": {
+    "Description": "dataInfo.implantationLaterality as stored by the authors.",
+    "Levels": {
+      "lh": "left hemisphere",
+      "rh": "right hemisphere",
+      "lrh": "both hemispheres"
+    }
+  },
+  "n_electrodes": {
+    "Description": "Number of electrodes (HFA channels) in the authors' file."
+  }
+}

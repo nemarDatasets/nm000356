@@ -1,0 +1,7 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateSystemDescription": "MNI coordinates as provided by the authors (FieldTrip struct elec_mni_frvr, coordsys \"mni\"), obtained by volume-based normalisation of patient-space coordinates for illustration purposes. The exact MNI template variant is not stated in the release, so the BIDS label \"Other\" is used rather than guessing one.",
+  "iEEGCoordinateProcessingDescription": "Stolk et al. (2018) pipeline: CT-MRI coregistration, electrode localisation, brain-shift compensation with a cortical hull (iso2mesh), volume-based normalisation to MNI. Anatomical labels from FreeSurfer fsaverage surface-based normalisation with the aparc+aseg atlas, confirmed by a neurologist.",
+  "iEEGCoordinateProcessingReference": "doi:10.1371/journal.pbio.3002176; doi:10.1038/s41596-018-0009-6"
+}

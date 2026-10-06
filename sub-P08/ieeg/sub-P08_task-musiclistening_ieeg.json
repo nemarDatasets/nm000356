@@ -1,0 +1,32 @@
+{
+  "TaskName": "musiclistening",
+  "TaskDescription": "Passive listening to the song Another Brick in the Wall, Part 1 (Pink Floyd, The Wall, 1979), 190.72 s, delivered through in-ear headphones at 50-60 dB SL; patients were instructed to listen attentively.",
+  "InstitutionName": "Albany Medical Center (recording site)",
+  "SamplingFrequency": 100.0,
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": {
+    "Authors HFA extraction (Bellier et al. 2023, Methods \"Preprocessing - ECoG data\")": {
+      "notch": "60 Hz and harmonics up to 300 Hz, Butterworth 4th order, 2 Hz bandwidth",
+      "highpass": "1 Hz Butterworth 4th order",
+      "HFA": "bandpass (Butterworth 4th order) in 20-Hz sub-bands from 70-90 to 130-150 Hz in 5-Hz steps; median-based common average reference per sub-band; Hilbert envelope; robust scaling per sub-band (median removed, divided by the 10th-90th percentile range); sub-bands averaged",
+      "downsampling": "to 100 Hz after removing 10-s pads",
+      "outliers": "samples exceeding 7 SD tagged (artifacts matrix), see events.tsv trial_type outlier_samples"
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "Median-based common average reference applied to each HFA sub-band by the authors (separately per splitter box in 14 participants); original recording reference not documented in the release.",
+  "ECOGChannelCount": 76,
+  "SEEGChannelCount": 0,
+  "EEGChannelCount": 0,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "RecordingType": "continuous",
+  "RecordingDuration": 190.72,
+  "iEEGGround": "n/a",
+  "iEEGPlacementScheme": "Clinical subdural grids/strips (Ad-Tech); implantation laterality as stored: lh",
+  "ElectricalStimulation": false,
+  "Manufacturer": "g.tec (g.USBamp), BCI2000 (original recording at 1200 Hz)"
+}

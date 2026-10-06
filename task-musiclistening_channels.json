@@ -1,0 +1,22 @@
+{
+  "units": {
+    "Description": "HFA is a robust-scaled, dimensionless envelope estimate (median removed, divided by the 10th-90th percentile range per sub-band, then averaged), so it has no physical unit."
+  },
+  "low_cutoff": {
+    "Description": "Lower edge of the HFA band (70-150 Hz) the envelope was extracted from; the time series itself is sampled at 100 Hz.",
+    "Units": "Hz"
+  },
+  "high_cutoff": {
+    "Description": "Upper edge of the HFA band.",
+    "Units": "Hz"
+  },
+  "status": {
+    "Description": "bad = electrode flagged by the authors as noisy or epileptic (dataInfo.idxNoisyElecs / idxEpilepticElecs); the authors excluded these from their analyses. The HFA values are kept as released."
+  },
+  "author_reference_electrode": {
+    "Description": "true for the electrode index stored in dataInfo.idxRefElec (as stored; empty in some patients)."
+  },
+  "n_outlier_samples": {
+    "Description": "Number of samples marked true for this channel in the authors' artifacts matrix."
+  }
+}

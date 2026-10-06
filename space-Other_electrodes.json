@@ -1,0 +1,18 @@
+{
+  "x": {
+    "Description": "elecpos x of the authors' MNI electrode struct (see coordsystem).",
+    "Units": "mm"
+  },
+  "y": {
+    "Description": "elecpos y.",
+    "Units": "mm"
+  },
+  "z": {
+    "Description": "elecpos z.",
+    "Units": "mm"
+  },
+  "anat_label": {
+    "Description": "anatLabels as stored by the authors (FreeSurfer aparc+aseg label from fsaverage surface-based normalisation, confirmed by a neurologist)."
+  },
+  "SpatialReference": "MNI template space used by the authors' FieldTrip volume-based normalisation; the template image is not specified in the release (Zenodo 7876019)."
+}

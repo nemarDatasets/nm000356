@@ -1,0 +1,24 @@
+{
+  "onset": {
+    "Description": "Seconds from the start of the HFA time series (= song onset).",
+    "Units": "s"
+  },
+  "duration": {
+    "Units": "s"
+  },
+  "sample": {
+    "Description": "0-based sample index (100 Hz)."
+  },
+  "trial_type": {
+    "Levels": {
+      "song": "The whole song (HFA is aligned to it by the authors)",
+      "outlier_samples": "Consecutive samples of one channel marked true in the authors' artifacts matrix (HFA exceeding 7 SD); exact reconstruction of that matrix"
+    }
+  },
+  "channel": {
+    "Description": "Channel the outlier run belongs to."
+  },
+  "stim_description": {
+    "Description": "Stimulus description."
+  }
+}

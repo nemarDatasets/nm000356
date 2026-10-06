@@ -1,0 +1,58 @@
+{
+  "Name": "Bellier et al. 2023 Pink Floyd music listening ECoG: authors' high-frequency activity (HFA, 70-150 Hz) for 29 patients",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Ludovic Bellier",
+    "Anaïs Llorens",
+    "Déborah Marciano",
+    "Aysegul Gunduz",
+    "Gerwin Schalk",
+    "Peter Brunner",
+    "Robert T. Knight"
+  ],
+  "HowToAcknowledge": "Cite Bellier L, Llorens A, Marciano D, Gunduz A, Schalk G, Brunner P, Knight RT (2023) Music can be reconstructed from human auditory cortex activity using nonlinear decoding models. PLoS Biol 21(8): e3002176, doi:10.1371/journal.pbio.3002176, and the data record doi:10.5281/zenodo.7876019.",
+  "Funding": [
+    "Fondation Pour l'Audition (FPA RD-2015-2 to LB)",
+    "NIH NIBIB R01-EB026439 and P41-EB018783 (to PB)",
+    "NIH NINDS U24-NS109103, U01-NS108916 and R13-NS118932 (to PB)",
+    "NIH NINDS R01-NS21135 (to RTK)"
+  ],
+  "EthicsApprovals": [
+    "Albany Medical College IRB #2061",
+    "University of California, Berkeley CPHS Protocol #2010-01-520"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.5281/zenodo.7876019",
+    "https://doi.org/10.1371/journal.pbio.3002176",
+    "https://github.com/ludovicbellier/PF_HFAdecoding"
+  ],
+  "Keywords": [
+    "iEEG",
+    "ECoG",
+    "high-frequency activity",
+    "HFA",
+    "music",
+    "auditory",
+    "derivative",
+    "stimulus reconstruction"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Authors' HFA extraction (FieldTrip May 2021 + custom MATLAB)",
+      "Description": "Bellier et al. 2023 Methods: song-aligned data with 10 s padding; notch 60 Hz and harmonics to 300 Hz; 1 Hz high-pass; 20-Hz sub-bands 70-150 Hz (5-Hz steps), median common average reference per sub-band, Hilbert envelope, robust scaling, average across sub-bands; pads removed; downsampled to 100 Hz; samples above 7 SD tagged as outliers. Recording at 1200 Hz (g.USBamp, BCI2000) at Albany Medical Center. Performed by the authors; raw recordings were not released.",
+      "CodeURL": "https://github.com/ludovicbellier/PF_HFAdecoding"
+    },
+    {
+      "Name": "laneD_convert.py",
+      "Description": "BIDS packaging only (no signal processing): HFA matrices written as BrainVision float32 (dimensionless), authors' channel flags to channels.tsv, outlier matrix to per-channel events, MNI coordinates and anatomical labels to electrodes.tsv; source HFA and coordinate files copied byte-identically to sourcedata/. The three music stimulus files are not redistributed."
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5281/zenodo.7876019",
+      "URL": "https://zenodo.org/records/7876019"
+    }
+  ]
+}
