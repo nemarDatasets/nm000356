@@ -1,7 +1,9 @@
 {
   "TaskName": "musiclistening",
   "TaskDescription": "Passive listening to the song Another Brick in the Wall, Part 1 (Pink Floyd, The Wall, 1979), 190.72 s, delivered through in-ear headphones at 50-60 dB SL; patients were instructed to listen attentively.",
+  "Instructions": "As reported by the authors (not verbatim instruction text): patients were instructed to listen attentively to the music, without focusing on any special detail.",
   "InstitutionName": "Albany Medical Center (recording site)",
+  "InstitutionAddress": "Albany, NY, United States",
   "SamplingFrequency": 100.0,
   "PowerLineFrequency": 60,
   "SoftwareFilters": {
@@ -28,5 +30,7 @@
   "iEEGGround": "n/a",
   "iEEGPlacementScheme": "Clinical subdural grids/strips (Ad-Tech); implantation laterality as stored: lrh",
   "ElectricalStimulation": false,
-  "Manufacturer": "g.tec (g.USBamp), BCI2000 (original recording at 1200 Hz)"
+  "Manufacturer": "g.tec (g.USBamp), BCI2000 (original recording at 1200 Hz)",
+  "ManufacturersModelName": "g.USBamp",
+  "ElectrodeManufacturer": "Ad-Tech Medical"
 }

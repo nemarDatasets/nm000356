@@ -12,6 +12,7 @@
     "Peter Brunner",
     "Robert T. Knight"
   ],
+  "Acknowledgements": "Bellier et al. (2023), Acknowledgments: \"We thank Brian N. Pasley, Christopher R. Holdgraf, Stephanie Martin, Christian Mikutta, Randolph F. Helfrich, and Arjen Stolk for their helpful comments on data analysis.\" Data record doi:10.5281/zenodo.7876019 (published 2023-04-28). BIDS packaging for NEMAR by Bruno Aristimunha's iEEG-NEMAR campaign.",
   "HowToAcknowledge": "Cite Bellier L, Llorens A, Marciano D, Gunduz A, Schalk G, Brunner P, Knight RT (2023) Music can be reconstructed from human auditory cortex activity using nonlinear decoding models. PLoS Biol 21(8): e3002176, doi:10.1371/journal.pbio.3002176, and the data record doi:10.5281/zenodo.7876019.",
   "Funding": [
     "Fondation Pour l'Audition (FPA RD-2015-2 to LB)",
@@ -26,7 +27,8 @@
   "ReferencesAndLinks": [
     "https://doi.org/10.5281/zenodo.7876019",
     "https://doi.org/10.1371/journal.pbio.3002176",
-    "https://github.com/ludovicbellier/PF_HFAdecoding"
+    "https://github.com/ludovicbellier/PF_HFAdecoding",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10427021/"
   ],
   "Keywords": [
     "iEEG",
@@ -36,7 +38,13 @@
     "music",
     "auditory",
     "derivative",
-    "stimulus reconstruction"
+    "stimulus reconstruction",
+    "electrocorticography",
+    "epilepsy",
+    "music perception",
+    "superior temporal gyrus",
+    "encoding models",
+    "decoding models"
   ],
   "GeneratedBy": [
     {

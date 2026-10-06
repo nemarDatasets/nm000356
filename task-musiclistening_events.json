@@ -4,12 +4,14 @@
     "Units": "s"
   },
   "duration": {
+    "Description": "Duration of the song (190.72 s) or of the run of consecutive outlier samples.",
     "Units": "s"
   },
   "sample": {
     "Description": "0-based sample index (100 Hz)."
   },
   "trial_type": {
+    "Description": "Row type: the song, or a run of outlier samples on one channel.",
     "Levels": {
       "song": "The whole song (HFA is aligned to it by the authors)",
       "outlier_samples": "Consecutive samples of one channel marked true in the authors' artifacts matrix (HFA exceeding 7 SD); exact reconstruction of that matrix"
