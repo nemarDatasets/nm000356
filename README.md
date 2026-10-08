@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000356-blue)](https://doi.org/10.82901/nemar.nm000356)
+
 # Bellier et al. 2023: ECoG high-frequency activity while listening to a Pink Floyd song (29 patients)
 
 ## Overview
