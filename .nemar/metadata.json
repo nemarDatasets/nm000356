@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Bellier et al. 2023 Pink Floyd music listening ECoG: authors' high-frequency activity (HFA, 70-150 Hz) for 29 patients",
-  "description": "A BIDS-packaged derivative dataset of high-frequency activity (HFA, 70-150 Hz) estimates at 100 Hz, recorded with electrocorticography (ECoG) from 29 patients with pharmacoresistant epilepsy while they passively listened to Pink Floyd's 'Another Brick in the Wall, Part 1'. It includes electrode coordinates in MNI space and the authors' flags for noisy and epileptic channels. Raw ECoG recordings and the stimulus audio are not included.",
-  "methods_description": "ECoG was recorded at 1200 Hz with g.USBamp amplifiers and BCI2000 at Albany Medical Center, using clinical Ad-Tech grids and strips covering the superior temporal gyrus. HFA was extracted by notch filtering, 1 Hz high-pass filtering, and band-passing into 20-Hz sub-bands between 70 and 150 Hz. Each sub-band was median common-average referenced, and its Hilbert envelope was taken and robust-scaled. The sub-bands were averaged and the result downsampled to 100 Hz.",
+  "description": "A BIDS-packaged derivative dataset of high-frequency activity (HFA, 70-150 Hz) computed from electrocorticography (ECoG) recordings in 29 patients with pharmacoresistant epilepsy who passively listened to Pink Floyd's 'Another Brick in the Wall, Part 1'. It provides the authors' HFA estimates at 100 Hz aligned to the 190.72 s song, together with MNI electrode coordinates and anatomical labels. The raw ECoG recordings and the stimulus audio are not included. The data support encoding and decoding analyses of music perception in the human auditory cortex.",
+  "methods_description": "ECoG was recorded at 1200 Hz with g.USBamp amplifiers and BCI2000 at Albany Medical Center using clinical Ad-Tech grids and strips. The authors notch-filtered the signal at 60 Hz and its harmonics, then high-pass filtered it at 1 Hz. They band-passed it into 20-Hz sub-bands between 70 and 150 Hz and applied a median common average reference to each sub-band. They took the Hilbert envelope of each sub-band, robust-scaled it, and averaged across sub-bands. The result was downsampled to 100 Hz, and samples above 7 SD were tagged as outliers.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -67,15 +67,10 @@
       "term": "ECoG"
     },
     {
-      "term": "iEEG"
-    },
-    {
       "term": "high-frequency activity"
     },
     {
-      "term": "Music",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009146"
+      "term": "music perception"
     },
     {
       "term": "auditory cortex"
@@ -159,5 +154,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "58ce0873416793418a685c01d385b63f78d7fa801690ddce42bee26785dca709"
+  "source_hash": "bdb29b65615b5904e11de27c7b97cedd7d425480fcc3a21572ad4b43134be784"
 }
