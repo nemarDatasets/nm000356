@@ -78,6 +78,13 @@ Hilbert envelope of each sub-band and robust-scaled it (median removed, divided 
 The sub-bands were then averaged, the 10-s pads removed, and the result downsampled to 100 Hz. Samples above 7 SD were
 tagged as outliers. **The HFA values are dimensionless**, so `units` is `n/a`.
 
+The authors' code (`PF_preprocessingECoG.m`) also low-passes the raw ECoG at 250 Hz, in the same step as the notch and
+high-pass (not stated in the paper; FieldTrip default Butterworth, order 6, two-pass). It downsamples with FieldTrip
+`ft_resampledata` (`cfg.resamplefs = 100`, default method `resample`, i.e. MATLAB `resample`), which applies an
+anti-aliasing low-pass whose cutoff is not reported. In `channels.tsv`, `high_cutoff` is therefore `n/a` meaning
+"not reported", not "no low-pass". `low_cutoff` is `n/a` because no high-pass applies to the envelope itself; the
+70-150 Hz band it was extracted from is in the ieeg.json `SoftwareFilters`.
+
 FieldTrip (version from May 11, 2021) and the authors' own scripts were used for these steps (paper, Methods).
 Before extracting HFA the authors visually inspected the raw signals and identified noisy and epileptic electrodes
 with a neurologist; these are the `status = bad` channels (see Files).

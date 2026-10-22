@@ -1,3 +1,8 @@
+1.0.3 2026-10-21
+  - channels.tsv low_cutoff/high_cutoff 70/150 -> n/a: they gave the HFA carrier band, but the stored signal is a 100 Hz envelope (150 Hz is above its 50 Hz Nyquist).
+  - high_cutoff n/a means not reported, not no low-pass: the authors' resampling to 100 Hz (FieldTrip ft_resampledata, MATLAB resample) applies an anti-aliasing low-pass with an unreported cutoff (README, ieeg.json SoftwareFilters, channels.json).
+  - ieeg.json SoftwareFilters and README: the authors' 250 Hz low-pass on the raw ECoG, applied with the notch and high-pass (PF_preprocessingECoG.m; not in the paper).
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 

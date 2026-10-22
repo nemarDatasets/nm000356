@@ -10,8 +10,9 @@
     "Authors HFA extraction (Bellier et al. 2023, Methods \"Preprocessing - ECoG data\")": {
       "notch": "60 Hz and harmonics up to 300 Hz, Butterworth 4th order, 2 Hz bandwidth",
       "highpass": "1 Hz Butterworth 4th order",
+      "lowpass": "250 Hz on the raw ECoG, in the same FieldTrip ft_preprocessing call as the notch and high-pass (authors' code PF_preprocessingECoG.m: LPcutoff = 250, cfg.lpfilter = 'yes', cfg.lpfreq = LPcutoff; not stated in the paper); type and order are not set in the code, so the FieldTrip defaults of the cited 2021-05-11 version apply: Butterworth, order 6, two-pass",
       "HFA": "bandpass (Butterworth 4th order) in 20-Hz sub-bands from 70-90 to 130-150 Hz in 5-Hz steps; median-based common average reference per sub-band; Hilbert envelope; robust scaling per sub-band (median removed, divided by the 10th-90th percentile range); sub-bands averaged",
-      "downsampling": "to 100 Hz after removing 10-s pads",
+      "downsampling": "to 100 Hz after removing 10-s pads, with FieldTrip ft_resampledata (cfg.resamplefs = 100, default method resample = MATLAB resample; authors' code PF_preprocessingECoG.m), which applies an anti-aliasing low-pass whose cutoff is not reported: channels.tsv high_cutoff n/a means not reported, not no low-pass",
       "outliers": "samples exceeding 7 SD tagged (artifacts matrix), see events.tsv trial_type outlier_samples"
     }
   },
