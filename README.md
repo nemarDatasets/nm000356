@@ -134,3 +134,7 @@ record doi:10.5281/zenodo.7876019.
 - Code: https://github.com/ludovicbellier/PF_HFAdecoding.
 - Packaging: `laneD_convert.py` (iEEG-NEMAR campaign); see `GeneratedBy` in `dataset_description.json` and
   SHA-256 checksums in `sourcedata/sourcedata_provenance.json`.
+
+## Reading with MNE: dimensionless values (added 2026-10-19, version 1.0.3)
+
+The values are the authors' dimensionless, robust-scaled HFA (see "How the HFA was computed"), so channels.tsv and the BrainVision headers say `n/a` (resolution 1). MNE and MNE-BIDS read a channel with unit `n/a` as volts with scale 1: `raw.get_data()` returns the stored HFA numbers unchanged, labelled V. Anything that assumes volts or microvolts (plot scalings, rejection thresholds, amplitude checks in µV) misreads them: the HFA has a robust SD of about 0.17 per channel (about 1.7e5 if converted to "µV"), which is expected for a robust-scaled envelope and is not a scaling error. Use the values as they are and do not convert them to µV. Measured 19 Oct 2026 on one run per patient (29 runs): median robust SD after a 1 Hz high-pass 0.16-0.20 per run. No data, header or sidecar file changed.

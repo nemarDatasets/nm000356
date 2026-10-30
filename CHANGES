@@ -1,3 +1,6 @@
+1.0.3 2026-10-19
+  - README.md: section "Reading with MNE: dimensionless values": the HFA (units n/a) is read by MNE as volts with scale 1; its robust SD of about 0.17 is not a scaling error. No data, header or sidecar file changed.
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 
