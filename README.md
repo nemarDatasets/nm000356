@@ -64,6 +64,10 @@ the same 100 Hz time base (19072 samples).
 - `sub-PXX_space-Other_electrodes.tsv` + `_coordsystem.json`: the authors' MNI coordinates in mm and their anatomical
   labels. The BIDS coordinate system is `Other` because the release does not say which MNI template variant was used.
   The P2 coordinate structure has no `unit` field. Like all the others, it is taken as mm (its value range matches).
+  The anatomical labels and coordinates are transcribed as released and are not reconciled. In 17 of the 2668
+  contacts the label names the hemisphere opposite to the sign of x. 15 lie within 2.6 mm of the midline (P08, P10,
+  P11, P17). Two do not: in P03, contacts 53 and 59 are labelled `ctx-lh-lingual` at x = +29.6 and +35.1 mm, while
+  every other P03 contact has x > +20 mm (a right-hemisphere implant). Treat those two labels as unreliable.
 - `sourcedata/zenodo-7876019/`: the authors' 58 HFA and coordinate `.mat` files, byte-identical, with SHA-256 in
   `sourcedata/sourcedata_provenance.json`.
 
