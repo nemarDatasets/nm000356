@@ -64,6 +64,10 @@ the same 100 Hz time base (19072 samples).
 - `sub-PXX_space-Other_electrodes.tsv` + `_coordsystem.json`: the authors' MNI coordinates in mm and their anatomical
   labels. The BIDS coordinate system is `Other` because the release does not say which MNI template variant was used.
   The P2 coordinate structure has no `unit` field. Like all the others, it is taken as mm (its value range matches).
+  The anatomical labels and coordinates are transcribed as released and are not reconciled. In 17 of the 2668
+  contacts the label names the hemisphere opposite to the sign of x. 15 lie within 2.6 mm of the midline (P08, P10,
+  P11, P17). Two do not: in P03, contacts 53 and 59 are labelled `ctx-lh-lingual` at x = +29.6 and +35.1 mm, while
+  every other P03 contact has x > +20 mm (a right-hemisphere implant). Treat those two labels as unreliable.
 - `sourcedata/zenodo-7876019/`: the authors' 58 HFA and coordinate `.mat` files, byte-identical, with SHA-256 in
   `sourcedata/sourcedata_provenance.json`.
 
@@ -134,3 +138,7 @@ record doi:10.5281/zenodo.7876019.
 - Code: https://github.com/ludovicbellier/PF_HFAdecoding.
 - Packaging: `laneD_convert.py` (iEEG-NEMAR campaign); see `GeneratedBy` in `dataset_description.json` and
   SHA-256 checksums in `sourcedata/sourcedata_provenance.json`.
+
+## Reading with MNE: dimensionless values (added 2026-10-19, version 1.0.3)
+
+The values are the authors' dimensionless, robust-scaled HFA (see "How the HFA was computed"), so channels.tsv and the BrainVision headers say `n/a` (resolution 1). MNE and MNE-BIDS read a channel with unit `n/a` as volts with scale 1: `raw.get_data()` returns the stored HFA numbers unchanged, labelled V. Anything that assumes volts or microvolts (plot scalings, rejection thresholds, amplitude checks in µV) misreads them: the HFA has a robust SD of about 0.17 per channel (about 1.7e5 if converted to "µV"), which is expected for a robust-scaled envelope and is not a scaling error. Use the values as they are and do not convert them to µV. Measured 19 Oct 2026 on one run per patient (29 runs): median robust SD after a 1 Hz high-pass 0.16-0.20 per run. No data, header or sidecar file changed.
